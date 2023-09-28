@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Presentacion Personal</title>
+    <style>
+        table {
+          border-collapse: collapse; 
+        }
+        td, th {
+          padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        window.onload = function() {
+            alert("¡Bienvenido a mi página personal !");
+            alert("Aqui conocera mas sobre mi !!")
+            mostrarMensajeDeConfirmacion();
+            cambiarTitulo();
+        };
+
+       function cambiarTitulo() {
+            var titulo = document.getElementById("titulo");
+            titulo.style.color = "blue";
+        }
+    </script>
+
+    <table>
+        <tr>
+            <th>
+                <section id="titulo" style="font-family: Arial, sans-serif;"> Presentación Personal </section>
+            </th>
+            <th>
+                <div class="contenedor">
+                    <img src="foto.jpg" width="185px" style="border-radius: 5px red;">
+                    <h4 class="texto" style="border: 4px solid red; padding: 20px; margin: 0px; padding-left: 10p; padding-top: 95px;"> 
+                        Mi nombre es Luis Enrique Huerta Gonzales, tengo 19 años, acabe mi educación en el colegio San Jeronimo,
+                        me considero una persona muy sociable, empática y profunda. 
+                    </h4>
+                </div>
+            </th>
+        </tr>
+    </table>
+
+    <hr/>
+
+    <table>
+        <th class="sobre_mi_contenido">
+            <h3 style="color: red; position: absolute ; left: 100px; margin-top: -115px; font-size: 25px;">Apasiones</h3>
+            <p style="position: absolute ; left: 85px; margin-top: -80px; font-size: 20px;">La música<br />Los autos y motos<br />La espiritualidad<br />La limpieza<br />La plenitud</p>
+            <h3 style="color: red; position: absolute ; left: 113px ;margin-top: 185px; font-size: 25px;">Hobbies</h3>
+            <p style="position: absolute ; left: 60px ;margin-top: 220px; font-size: 20px;">Tocar y hacer música<br />Realizar deporte<br />La meditación<br />Tocar piano y violín<br />Leer</p>
+            <h3 style="color: red; position: absolute; margin-left: 130px; font-size: 25px;" >Gustos</h3>
+            <p style="position: relative; margin-top: 50px; left: 70px; font-size: 19px; margin-top: 60px; ">Me agrada mucho la comida picante<br />Escucho todo tipo de música<br />Ir a conciertos de música clásica<br />Lugares libres</p>
+            <img src="musica.png" alt="" width="90px" style="float: left; margin-left: 100px; margin-top: -340px;">
+        </th>
+
+        <th>
+            <img src="image1.png" alt="" width="220px" style="position: absolute; margin-left: -400px; margin-top: 10px; border-radius: 20px;">
+            <h1 style="position: absolute; margin-left: -180px; color: lightcoral; padding-top: 1px;">Hola!!</h1>
+            <p style="position: absolute; left: 620px; padding: 50px; margin: 30px; line-height: 30px; color: bisque; font-size: 18px; padding-left: 40px; margin-top: 15px; padding-bottom: 130px; border: 5px solid; border-top: 20px; border-bottom: 20px; border-right: 20px;">Se encuentran en mi portafolio, <br> aqui encontraran información <br> básica de lo que <br> me constituye  como <br> también  compartirles mis <br> proyectos  para <br> que me vayan conociendo a profundidad. <br> <br> Espero les guste &#128513; </p>
+            <h2 id="subtitulo" style="margin-top: -10px; font-family: Arial, sans-serif;"> Sobre Mi </h2>
+        </th>
+    </table>
+
+    <hr>
+    
+    <table>
+        <th>
+            <img src="java.png" alt="" width="120px" style="size: 20px;">
+            <img src="python.png" alt="" width="120px">
+            <img src="html.png" alt="" width="120px">
+            <img src="javas.png" alt="" width="120px">
+            <img src="mongo.png" alt="" width="120px">
+        </th>
+        <th>
+            <h1 id="sub3" style="color: brown; padding-top: 20px;"> Tecnologías y lenguajes de Programación </h1>
+            <p> - En la actualidad mayormente me estoy centrando en el tema empresarial con el uso de Java, Php, Mongodb y cosas que voy aspirando a lo largo de la carrera, a continuación les dejo algunos criterios que tomo en cuenta como también los Lenguajes de Programación que uso</p>
+            <p> - Emprendimiento Tecnológico: Los emprendedores tecnológicos utilizan lenguajes de programación para crear nuevas empresas y aplicaciones innovadoras que pueden transformar industrias enteras. 
+                <br/> <br/> - Automatización de Tareas: Los programas escritos en lenguajes de programación permiten automatizar tareas repetitivas y complejas que serían difíciles o ineficientes de realizar manualmente. Esto ahorra tiempo y reduce errores. 
+                <br/> <br/> - Seguridad Informática: Los expertos en seguridad utilizan lenguajes de programación para identificar vulnerabilidades y desarrollar medidas de seguridad para proteger sistemas y datos. 
+                <br/> <br/> - Las tecnologías y los lenguajes de programación son los cimientos de la revolución tecnológica actual. Facilitan la creación de software, la automatización de tareas y el progreso en una variedad de campos, desde la ciencia de datos hasta la seguridad informática. El conocimiento y la comprensión de estos elementos son esenciales para aprovechar al máximo el potencial de la tecnología en la era digital. </p>
+        </th>
+    </table>
+
+    <hr>
+    
+    <table>
+        <th>
+            <h1 id="sub4" style="color: brown; margin-top: -60px;"> Formación Profesional </h1> 
+            <p style="font-size: 20px; "> Actualmente estoy estudiando en TECSUP la carrera de Diseño y Desarrollo de software, y esta experiencia ha sido sumamente enriquecedora. Ha ampliado mi visión en el campo de la tecnología y el desarrollo de software, permitiéndome adquirir habilidades técnicas y conocimientos sólidos en programación, diseño de aplicaciones y gestión de proyectos. </p>   
+        </th>
+        <th>
+            <video width="600" height="240" controls style="padding: 50px;">
+                <source src="X2Download.app-TECSUP _ Arequipa.mp4" type="video/mp4">
+                <source src="X2Download.app-TECSUP _ Arequipa.mp4" type="video/webm">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </th>
+    </table>
+</body>
+</html>

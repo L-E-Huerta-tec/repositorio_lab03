@@ -1,0 +1,87 @@
+*{
+    
+    background-color: transparent ;
+    color: cornflowerblue;
+     scroll-behavior: smooth;
+    
+}
+
+
+.contenedor{
+
+    padding: 60px;
+    display: flex;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pexels-little-visuals-1954.jpg);   
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-family: sans-serif;
+}
+
+.texto{
+
+    font-size: 150%;
+    padding-top: 61px;
+    padding-left: 20px;
+
+}
+
+
+#titulo{
+
+    font-family: 'Arial', sans-serif;
+    font-size: 400%;
+    padding-left: 200px;
+    padding-right: 320px;
+    color: rosybrown;
+    text-align: center;
+}
+
+.sobre_mi_contenido{
+
+    h4{
+        color: red;
+        display: inline-block;
+        margin-right: 10px; 
+      }
+    p {
+        display: inline-block;
+        vertical-align: top; /* Alineación vertical superior */
+    }
+    font-size: 150%;
+    padding-left: 350px;
+    padding-right: 450px;
+
+}
+
+#subtitulo{
+
+    font-family: 'Arial', sans-serif;
+    font-size: 400%;
+    padding-top: 145px;
+    padding-bottom: 145px;
+    padding-left: 400px;
+    padding-right: 300px;
+    color: rosybrown;
+    text-align: center;
+    
+}
+
+
+#sub3{
+    color: royalblue;
+    text-align: center;
+}
+
+
+#sub4{
+    color: royalblue;
+    text-align: center;
+}
